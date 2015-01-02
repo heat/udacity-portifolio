@@ -1,10 +1,6 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
     font-family: "Kalimati", Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 body {
     /* reset */
@@ -41,6 +37,8 @@ h2 {
     color: #F07C17;
     margin-bottom: 32px;
     letter-spacing: 0.1em;
+    word-spacing: -0.4em;
+
 }
 
 .head, 
@@ -69,12 +67,18 @@ h2 {
 }
 
 .content {
-    padding-left: 32px;
+    padding-left: 30px;
     padding-right: 0px;
+    max-width: 562px;
+}
+
+.content:last-child {
+    margin-bottom: 0;
 }
 
 p,
 ul li {
+    word-spacing: -1px;
     line-height: 32px;
     color: #666;
 }

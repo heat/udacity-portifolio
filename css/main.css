@@ -36,7 +36,7 @@ h2 {
     margin-top: 0;
     color: #F07C17;
     margin-bottom: 32px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     word-spacing: -0.4em;
 
 }
@@ -57,9 +57,9 @@ h2 {
 
 .feature {
     border: 1px solid #ccc;
-    padding-top: 35px;
-    padding-bottom: 27px;
-    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 30px;
 }
 
 .feature h2 {

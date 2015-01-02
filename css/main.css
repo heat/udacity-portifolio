@@ -1,0 +1,26 @@
+* {
+    font-family: "Kalimati", Verdana, sans-serif;
+}
+body {
+    /* reset */
+    max-width: 1024px;
+    padding: 0;
+    margin: 0;
+}
+h1, h2 {
+    text-transform: capitalize;
+}
+h1 {
+    color: #666;
+}
+h2 {
+    color: #F07C17;
+}
+.container {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+p {
+    line-height: ;
+}

@@ -41,10 +41,14 @@ h2 {
     letter-spacing: 2px;
 }
 
+.head, 
 .aside {
     padding-left: 0px;
     padding-right: 0px;
+}
+.aside {
     width: 375px;
+
 }
 
 .aside img {

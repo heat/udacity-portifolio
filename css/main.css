@@ -1,9 +1,11 @@
+/* Default formatting to whole page */
 * {
     font-family: "Kalimati", Verdana, sans-serif;
     font-size: 16px;
 }
+
+/* Reseting */
 body {
-    /* reset */
     max-width: 1024px;
     padding: 0;
     margin: 0;
@@ -15,6 +17,12 @@ body {
     margin: 0 0;
 }
 
+.head, 
+.aside {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .container {
     margin-top: 32px;
     margin-left: 42px;
@@ -22,6 +30,7 @@ body {
     width: 936px;
 }
 
+/* headers text */
 h1 {
     color: #666;
     font-size: 46px;
@@ -38,20 +47,15 @@ h2 {
     margin-bottom: 32px;
     letter-spacing: 0.2em;
     word-spacing: -0.4em;
-
 }
 
-.head, 
-.aside {
-    padding-left: 0px;
-    padding-right: 0px;
-}
+/* Left bar menu */
 .aside {
     width: 375px;
-
 }
 
-.aside img {
+.aside img,
+.aside h2 {
     margin-bottom: 28px;
 }
 
@@ -62,13 +66,10 @@ h2 {
     padding-left: 30px;
 }
 
-.feature h2 {
-    margin-bottom: 28px;
-}
-
+/* Main content */
 .content {
     padding-left: 30px;
-    padding-right: 0px;
+    padding-right: 0;
     max-width: 562px;
 }
 
